@@ -1,0 +1,215 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*Headings*/
+
+.first-head {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-head {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/*Containers*/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Navigation Bar*/
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #E26868;
+
+}
+
+
+/*Title Section*/
+
+#title {
+    background-color: #076baa;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/*Title Image*/
+
+.dogg-img {
+    width: 120%;
+    padding-right: 40px;
+
+}
+
+
+/*Download Buttons*/
+
+.btn {
+    margin: 3% 3% 5% 0;
+
+}
+
+/*Features*/
+
+.fa-solid {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    color: #E26868;
+
+}
+
+.fa-solid:hover {
+    color: #D2001A;
+}
+
+.feat {
+    padding: 0 5%;
+    font-size: 1.2rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#features .container-fluid {
+    padding: 5% 15% 4%;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: #076baa;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.testim-img {
+    border-radius: 100%;
+    width: 12%;
+    padding-top: 10px;
+}
+
+
+/*Press*/
+
+#press {
+    background-color: #076baa;
+    padding-bottom: 3%;
+
+}
+
+.logo-img {
+    width: 13%;
+    padding: 0 20px;
+}
+
+/*Pricing*/
+
+#pricing {
+    padding: 5%;
+}
+
+.row {
+    padding-top: 3.5%;
+}
+
+.price-txt {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.pricing-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/*Call To Action*/
+
+#callAc {
+    background-color: #076baa;
+
+}
+
+.textAc {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 4%;
+}
+
+/*Footer Section*/
+
+.copy {
+    font-size: 0.9rem;
+    padding-right: 15px;
+}
+
+#brands {
+    padding: 15px 20px 20px 0;
+    font-size: 1.7rem;
+}
+
+#brands:hover {
+    color: #076baa;
+}
+
+
+
+
+@media (max-width: 1036px) {
+    #title {
+        text-align: center;
+        justify-content: center;
+    }
+}
