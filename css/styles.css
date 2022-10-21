@@ -204,8 +204,10 @@ p {
     color: #076baa;
 }
 
-
-
+#footer .container-fluid {
+    paddding: 3% 15%;
+    
+/*CSS Media*/
 
 @media (max-width: 1036px) {
     #title {
